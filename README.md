@@ -6,23 +6,21 @@
 
 # 🍔 INHAYO Database Design
 
-본 프로젝트는 배달 서비스 플랫폼 **INHAYO**의 데이터베이스 설계 및 구현을 목표로 진행되었습니다.  
-회원, 가맹점, 주문, 리뷰, 포인트 등 배달 앱의 핵심 기능을 데이터베이스로 구조화하였습니다.
+> 본 프로젝트는 배달 서비스 플랫폼 **INHAYO**의 데이터베이스 설계 및 구현을 목표로 진행되었습니다.  
+> 회원, 가맹점, 주문, 리뷰, 포인트 등 배달 앱의 핵심 기능을 데이터베이스로 구조화하였습니다.
 
 <br>
 
-## 📖 목차
-1. 문제 정의
-2. 시스템 구성도
-3. Storyboard
-4. Entity 기술서
-5. ERD (Entity-Relationship Diagram)
-6. Naming Rule
-7. Sample Data
+## 📖 프로젝트 개요
+- **주제 선정 이유**: 배달 애플리케이션 서비스에서 핵심이 되는 주문·회원·가맹점 관리 체계를 체계적으로 데이터베이스로 설계하고자 함  
+- **목표**: 회원, 가맹점, 주문, 리뷰, 포인트 등 주요 기능을 포함한 배달 플랫폼 데이터베이스 설계 및 구현 
+- **환경**: MySQL 기반 데이터베이스 모델링, PPT 및 Word를 활용한 문서화  
+- **데이터 형태**: Entity-Relationship Diagram(ERD), 테이블 정의서, 샘플 데이터
+
 
 <br>
 
-## 1️⃣ 문제 정의
+## 🔍 문제 정의
 - 회원/비회원 모두 이용 가능
 - 회원만 포인트 및 쿠폰 혜택 제공
 - GPS 기반 주소 자동 저장 및 수정 가능
@@ -33,7 +31,7 @@
 
 <br>
 
-## 2️⃣ 시스템 구성도
+## 🖥️ 시스템 구성도
 - 로그인 / 회원가입 / 소셜 로그인 지원
 - 메인 화면: 가맹점 목록, 찜, 장바구니, 검색
 - 마이페이지: 회원정보, 포인트, 쿠폰, 리뷰, 주문 내역
@@ -43,14 +41,14 @@
 
 <br>
 
-## 3️⃣ Storyboard
+## 📝 Storyboard
 사용자 및 사장님 관점에서의 화면 흐름.
 
 <img src="./image/storyboard.png" width="750" alt="스토리보드"/>
 
 <br>
 
-## 4️⃣ Entity 기술서
+## 📒 Entity 기술서
 주요 엔터티(Entity) 및 속성 정의:
 
 - **회원(Member)**: 아이디, 비밀번호, 이메일, 닉네임, 포인트, 쿠폰, 주소 등  
@@ -63,25 +61,25 @@
 
 <br>
 
-## 5️⃣ ERD (Entity-Relationship Diagram)
+## 🔗 ERD (Entity-Relationship Diagram)
 
 <img src="./image/ERD.png" width="850" alt="ERD"/>
 
 <br>
 
-## 6️⃣ Naming Rule
+## 🏷️ Naming Rule
 - 테이블명: 명사 단수형 (예: `member`, `order`)  
 - 컬럼명: `table_속성명` (예: `mem_id`, `ord_date`)  
 - Primary Key: `id` 접미사  
 - Foreign Key: 참조하는 테이블의 PK명 사용
-- 
+  
 <img src="./image/naming.png" width="500" alt="namingrule"/>
 
 
 <br>
 
-## 7️⃣ Sample Data
-테스트 데이터 예시.
+## 📊 Sample Data
+샘플 데이터 
 
 <img src="./image/sample.png" width="750" alt="sample"/>
 <br>
