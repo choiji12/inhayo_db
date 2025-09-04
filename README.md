@@ -1,4 +1,4 @@
-<img src="./image/thumb.png" width="500" alt="thumb"/>
+<img src="./image/Thumb.png" width="700" alt="Thumb"/>
 
 # 🍔 INHAYO Database Design
 
@@ -35,14 +35,14 @@
 - 마이페이지: 회원정보, 포인트, 쿠폰, 리뷰, 주문 내역
 - 업소 신청 및 광고 관리 (사장님 사이트)
 
-<img src="./image/system.png" width="500" alt="시스템 구성도"/>
+<img src="./image/system.png" width="750" alt="시스템 구성도"/>
 
 <br>
 
 ## 3️⃣ Storyboard
 사용자 및 사장님 관점에서의 화면 흐름.
 
-<img src="./image/storyboard.png" width="500" alt="스토리보드"/>
+<img src="./image/storyboard.png" width="750" alt="스토리보드"/>
 
 <br>
 
@@ -61,7 +61,7 @@
 
 ## 5️⃣ ERD (Entity-Relationship Diagram)
 
-<img src="./image/ERD.png" width="500" alt="ERD"/>
+<img src="./image/ERD.png" width="850" alt="ERD"/>
 
 <br>
 
@@ -70,13 +70,16 @@
 - 컬럼명: `table_속성명` (예: `mem_id`, `ord_date`)  
 - Primary Key: `id` 접미사  
 - Foreign Key: 참조하는 테이블의 PK명 사용
+- 
+<img src="./image/naming.png" width="500" alt="namingrule"/>
+
 
 <br>
 
 ## 7️⃣ Sample Data
 테스트 데이터 예시.
 
-<img src="./image/sample.png" width="500" alt="sample"/>
+<img src="./image/sample.png" width="750" alt="sample"/>
 <br>
 
 ## ⚙️ 사용 기술
