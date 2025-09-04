@@ -1,4 +1,4 @@
-<img src="./images/thumb" width="500" alt="thumb"/>
+<img src="./image/thumb" width="500" alt="thumb"/>
 
 # 🍔 INHAYO Database Design
 
@@ -35,14 +35,14 @@
 - 마이페이지: 회원정보, 포인트, 쿠폰, 리뷰, 주문 내역
 - 업소 신청 및 광고 관리 (사장님 사이트)
 
-<img src="./images/system.png" width="500" alt="시스템 구성도"/>
+<img src="./image/system.png" width="500" alt="시스템 구성도"/>
 
 <br>
 
 ## 3️⃣ Storyboard
 사용자 및 사장님 관점에서의 화면 흐름.
 
-<img src="./images/storyboard" width="500" alt="스토리보드"/>
+<img src="./image/storyboard" width="500" alt="스토리보드"/>
 
 <br>
 
@@ -55,13 +55,13 @@
 - **쿠폰(Coupon)**: 쿠폰번호, 할인금액, 발급방법, 사용기간, 제한조건 등  
 - **포인트(Point)**: 적립/사용 금액, 사유, 만료일자 등
 
-<img src="./images/entity" width="500" alt="entity"/>
+<img src="./image/entity" width="500" alt="entity"/>
 
 <br>
 
 ## 5️⃣ ERD (Entity-Relationship Diagram)
 
-<img src="./images/entity" width="500" alt="entity"/>
+<img src="./image/entity" width="500" alt="entity"/>
 
 <br>
 
@@ -76,7 +76,7 @@
 ## 7️⃣ Sample Data
 테스트 데이터 예시.
 
-<img src="./images/sample" width="500" alt="sample"/>
+<img src="./image/sample" width="500" alt="sample"/>
 <br>
 
 ## ⚙️ 사용 기술
