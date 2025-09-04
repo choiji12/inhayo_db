@@ -1,4 +1,8 @@
-<img src="./image/Thumb.png" width="700" alt="Thumb"/>
+<p align="center">
+  <img src="./image/Thumb.png" width="750" alt="Thumb"/>
+</p>
+
+<br>
 
 # 🍔 INHAYO Database Design
 
@@ -92,6 +96,6 @@
 ## 📎 참고 자료
 해당 README는 요약본이며, 자세한 설계 문서 및 이미지 자료는 아래 첨부 문서에서 확인 가능합니다.
 
-- 📄 [INHAYO_DB설계_기술서.docx](./docs/INHAYO_DB설계_기술서.docx)  
-- 📊 [INHAYO_DB설계.pptx](./docs/INHAYO_DB설계.pptx)
+- 📄 [INHAYO_DB설계_기술서.docx](./INHAYO_DB설계_기술서.docx)  
+- 📊 [INHAYO_DB설계.pptx](./INHAYO_DB설계.pptx)
 
